@@ -1,11 +1,11 @@
-const productArray = [{
-    id: "1", title: "Coffee", price: 9.99
+const productArray = [{ //If this pulls from a db this would be a lot more robust
+    id: "price_1M1In2IS6vfGou9X0rnztKrs", title: "Coffee", price: 9.99
 },
     {
-    id: "2", title: "Sunglasses", price: 39.99
+    id: "price_1M1IpJIS6vfGou9XQgNuDAgt", title: "Sunglasses", price: 39.99
 },
     {
-    id: "3", title: "DSLR Camera", price: 899.99
+    id: "price_1M1IpxIS6vfGou9X7OxzEEoj", title: "DSLR Camera", price: 899.99
 }]
 
 const getProductData = (id) => {
